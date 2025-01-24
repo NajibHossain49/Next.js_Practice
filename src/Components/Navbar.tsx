@@ -25,18 +25,31 @@ export default function Navbar() {
         <h1 className="text-2xl font-bold">My App</h1>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/Home"> {/* Use Link for navigation */}
-              <a className="hover:underline">Home</a>
+            <Link href="/Home">
+              {" "}
+              {/* Use Link for navigation */}
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/viewprofile"> {/* Use Link for navigation */}
-              <a className="hover:underline">Profile</a>
+            <Link href="/viewprofile">
+              {" "}
+              {/* Use Link for navigation */}
+              Profile
             </Link>
           </li>
           <li>
-            <Link href="/settings"> {/* Use Link for navigation */}
-              <a className="hover:underline">Settings</a>
+            <Link href="/AddRole">
+              {" "}
+              {/* Use Link for navigation */}
+              Add-Role
+            </Link>
+          </li>
+          <li>
+            <Link href="/NewEmployee">
+              {" "}
+              {/* Use Link for navigation */}
+              New-Employee
             </Link>
           </li>
         </ul>
